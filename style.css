@@ -99,13 +99,21 @@ button:hover {
     background-color: #d37b01;
 }
 
-@keyframes toFadein {
+@keyframes toFadeIn {
     0% {
-        transform: 
-        translateY(150px)
-        scale(1);
+      transform:
+      translateY(150px)
+      scale(0.1);
+
     }
-}
+
+    100% {
+      transform:
+      translateY(0px)
+      scale(1);
+    }
+  }
+
 
 
 @keyframes shake {
